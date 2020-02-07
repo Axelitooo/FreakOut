@@ -1,4 +1,4 @@
-CONCEPT :
+FEATURES :
 
 Freak Out ! est un jeu de cartes pour 2 joueurs qui s'éxécute dans le terminal. Le jeu comporte 20 cartes, portant une couleur
 et un numéro de 0 à 9. Le but du jeu est de se débarasser de toutes ses cartes, le plus vite possible. Une carte est posée au 
@@ -9,7 +9,7 @@ bien la carte de couleur opposée et de même numéro. En cas d'erreur ou d'ind�
 
 => Tester la victoire : lancer FreakOutEasyWin.py et jouer la bonne carte.
 
-CODE :
+PRECISIONS :
 
 Python 3.6. Utilisation de la bibliothèque sysv_ipc.
 
@@ -20,7 +20,7 @@ Deux mutex, pour la pioche et l'action, permettent d'éviter les conflits lorsqu
 Comme l'affiche le terminal, les deux joueurs jouent sur le clavier à l'aide des touches qui leur sont respectivement attribuées. 
 Le temps imparti pour jouer est de 10 secondes.
 
-Si on interromp le programme, la message queue ne sera pas nettoyée et cela conduira la prochaine exécution à se terminer
+Si on interrompt le programme, la message queue ne sera pas nettoyée et cela conduira la prochaine exécution à se terminer
 prématurément. Il suffit de laisser le programme se terminer pour pouvoir le relancer sans problème.
 
 Les messages de shutdown qui permettent d'arrêter l'exécution sont passés de process en process.
