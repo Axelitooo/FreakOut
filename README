@@ -10,7 +10,7 @@ bien la carte de couleur opposée et de même numéro. En cas d'erreur ou d'ind�
 
 => Tester la victoire : lancer FreakOutEasyWin.py et jouer la bonne carte.
 
------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
 
 PRECISIONS :
 
@@ -33,4 +33,4 @@ Nous avons mis en évidence l'arrêt différé des process par des messages affi
 Comme il est assez difficile de gagner avec les règles proposées, nous avons créé une variante du programme qui permet de gagner
 en 1 coup. Cela permet de vérifier que notre code s'exécute correctement dans le cas d'une victoire.
 
------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------
